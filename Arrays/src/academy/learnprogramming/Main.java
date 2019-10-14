@@ -26,13 +26,17 @@ public class Main {
         int[] lenArray = new int[20000];
         for(int i = 0; i < lenArray.length; i++) {
             lenArray[i] = i*450;
-            System.out.println("Value at index " + i + " is " + lenArray[i]);
+            //System.out.println("Value at index " + i + " is " + lenArray[i]);
         }
+        printArray(lenArray);
 
 
     }
 
+    // Pass Array as a class parameter (input array = lenArray from above)
     public static void printArray(int[] array) {
-        
+        for(int i=0; i<array.length; i++) {
+            System.out.println("Value " + array[i] + " at index " + i);
+        }
     }
 }
