@@ -33,7 +33,7 @@ public class Main {
 
     }
 
-    // Pass Array as a class parameter (input array = lenArray from above)
+    // Pass Array as a parameter (input array = lenArray from above)
     public static void printArray(int[] array) {
         for(int i=0; i<array.length; i++) {
             System.out.println("Value " + array[i] + " at index " + i);
